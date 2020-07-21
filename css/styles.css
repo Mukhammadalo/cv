@@ -1,0 +1,150 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  line-height: 2;
+  margin: 0 auto;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5rem;
+  color: #66BFBF
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  text-indent: inherit;
+}
+
+h3 {
+  color: #11999E;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-size: 30%;
+  margin: 10px 10px 0 0;
+  text-decoration: inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #40514E;
+}
+
+p {
+  font-family: 'Epilogue', sans-serif;
+  text-indent: inherit;
+}
+
+img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+span {
+  font-weight: normal;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 150px
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  height: 200px;
+  width: 200px;
+  top: 1px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 200px;
+}
+
+.mountain {
+  height: 300px;
+  width: auto;
+}
+
+.i {
+  height: 30px;
+  width: 30px;
+}
+
+.g {
+  height: 30px;
+  width: 30px;
+}
+
+.f {
+  height: 30px;
+  width: 30px;
+}
+
+.profile {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.prof {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact {
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  flex-direction: column;
+  background-color: #E4F9F5;
+  line-height: 2;
+  padding: 40px 0 15px 0;
+}
+
+#last {
+  font-size: 20%;
+}
